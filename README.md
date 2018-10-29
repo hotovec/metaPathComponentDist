@@ -3,10 +3,10 @@
 # metaPath
 
 
-##base setup:
+## base setup:
 
 link all required bundles at the bottom of the page
-```
+```html
 <script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script>
 <script type="text/javascript" src="polyfills.b4daf421c94934f530d4.js"></script>
 <script type="text/javascript" src="scripts.69c39fe5fecacc5138f1.js"></script>
