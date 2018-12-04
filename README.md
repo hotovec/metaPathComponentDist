@@ -12,7 +12,7 @@ link all required bundles at the bottom of the page
 <script type="text/javascript" src="scripts.69c39fe5fecacc5138f1.js"></script>
 <script type="text/javascript" src="main.d58ef66a7ca6fd185741.js"></script>
 ```
-(has is changing every build)
+(hash is changing every build)
 
 
 ## config
@@ -76,7 +76,33 @@ var metapathConfig = {
       {type: 'default', url: 'pointURL'},
       {type: 'default', url: 'pointURL'},
       {type: 'default', url: 'pointURL'}
-    ]
+    ],
+
+
+    // when animal is on first point and user click prev    
+    prevScreenUrl: 'http://www.google.com',
+    
+    // when animal is on last point and user click next button    
+    nextScreenUrl: 'http://www.seznam.cz',
+    
+    
+    // help modal (optional)
+    // enable to show component help button
+    help: {
+      enabled: true, // true, false
+      button: 'Pomoc', // button text
+      headline: 'Pomoc', // modal window title
+      
+      // modal window text (optional)
+      text: 'Klikej po cestě na body,plň úkoly. Doběhni se zvířátkem na konec cesty vzdělání',
+      
+      // modal window close button text
+      close: 'zavřít',
+      
+      // inject image into modal (optional)
+      imageUrl: '/assets/scene/dzungle/player.png'
+    }
+
   };
 ```
 
